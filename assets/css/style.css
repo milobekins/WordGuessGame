@@ -1,0 +1,35 @@
+body {
+    background: black;
+    color: black;
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+#mainBody {
+    align-content: center;
+    position: relative;
+    width: 100%;
+    height: auto;
+    background: white;
+    border-bottom: 5px gray solid; 
+}
+.container {
+    width:auto;
+    height: auto;
+    overflow: hidden;
+}
+.header {
+    width:100%;
+    background: gray;
+}
+h1 {
+    font-size: 50px;
+    width: 100%;
+    font-weight: bold;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    border-bottom: 5px black solid;
+    color: linear-gradient(white, black);
+}
+p {
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+}

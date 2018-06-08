@@ -6,18 +6,31 @@
     <head>
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <title>Word Guess Game</title>
+        <title>Hangman</title>
         <meta name="description" content="">
         <meta name="viewport" content="width=device-width, initial-scale=1">
         <link rel="stylesheet" href="assets/css/reset.css">
         <link rel="stylesheet" href="assets/css/style.css">
-        <script rel="text/javascript" href="assets/javascript/game.js"></script>
+        
     </head>
     <body>
         <!--[if lt IE 7]>
             <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="#">upgrade your browser</a> to improve your experience.</p>
         <![endif]-->
-        
-        <script src="" async defer></script>
+        <div class="container">
+            <div class="header"><h1>HANGMAN</h1></div>
+            <div id="mainBody">
+            <p>Press Any Key To Get Started!</p>
+            <br>Word:
+            <div id="word"></div>
+            <br>Remaining:
+            <div id="remaining"></div>
+            <br>Guessed:
+            <div id="guessed"></div>
+            <br>Wins:
+            <div id="wins"></div>
+            </div>
+            </div>
+        <script src="assets/javascript/game.js"></script>
     </body>
 </html>
